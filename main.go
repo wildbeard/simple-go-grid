@@ -83,7 +83,6 @@ func GenerateGrid(width, height *int) Grid {
 func ConnectNodes(grid Grid) Grid {
 	width := len(grid[0])
 	height := len(grid)
-	fmt.Printf("w: %v h: %v\n", width, height)
 
 	for h := 0; h < height; h++ {
 		for w := 0; w < width; w++ {
